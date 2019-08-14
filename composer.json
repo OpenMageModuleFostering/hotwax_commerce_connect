@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/HotWax_Commerce_Connect",
+    "type": "magento-module",
+    "license": "OSL-(Open-Software-License)",
+    "homepage": "",
+    "description": "Complete ERP extension for Magento delivers an end-to-end digital commerce solution that manages the entire order-to-cash cycle.",
+    "authors": [
+    {
+        "name": "HotWax Systems",
+        "email": "hotwax-commerce-connect@hotwaxsystems.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

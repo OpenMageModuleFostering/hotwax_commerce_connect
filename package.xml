@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package>
+    <name>HotWax_Commerce_Connect</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://www.apache.org/licenses/LICENSE-2.0">OSL (Open Software License)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Complete ERP extension for Magento delivers an end-to-end digital commerce solution that manages the entire order-to-cash cycle.</summary>
+    <description>HotWax Commerce Connect bridges the gap between Magento and HotWax Commerce to complete the entire order to cash cycle. HotWax Commerce Connect allows the complex business functions necessary for successful e-commerce transactions to be harmoniously completed across two powerful systems, maximizing the capabilities of both systems and providing you with the power and agility to respond to market trends and drive digital commerce.&#xD;
+&#xD;
+Key Features:&#xD;
+&#xD;
+Order Management&#xD;
+Create, edit, or cancel orders created in Magento or from other channels in HotWax Commerce&#x2019;s central, easy to use order management system.&#xD;
+&#xD;
+Inventory Management&#xD;
+Manage inventory in multiple locations and sync with your Magento store. Create POs for incoming inventory, receive inventory, and transfer inventory between locations.&#xD;
+&#xD;
+Fulfillment&#xD;
+Pick one or more orders based on multiple criteria. Pack shipments in one or multiple packages. Create shipments with multiple carriers.&#xD;
+&#xD;
+Manage Returns&#xD;
+Track RMAs through each step of the process from initiation, to receipt of the goods, to replacement or refund.&#xD;
+&#xD;
+Financial Management&#xD;
+Create invoices, view payments, and run basic financial statements in HotWax Commerce.&#xD;
+&#xD;
+Business Intelligence&#xD;
+HotWax Commerce provides analytical data and reports to give you the information to make smart business decisions.</description>
+    <notes>This is the first public release of the HotWax Commerce Connect Extension and is compatible with both Magento Enterprise and Community versions. This plug-in supports HotWax Commerce 6.0 and later as well as OFBiz 13.07 and later.</notes>
+    <authors><author><name>HotWax Systems</name><user>hotwaxcommerce</user><email>hotwax-commerce-connect@hotwaxsystems.com</email></author></authors>
+    <date>2015-04-14</date>
+    <time>05:45:23</time>
+    <contents><target name="magecommunity"><dir name="OFBiz"><dir name="Magentoext"><dir name="Model"><dir name="Magento"><dir name="Catalog"><dir name="Api"><file name="V2.php" hash="1babbd6a1e06cd1318cdb63bba20444c"/></dir><file name="Api.php" hash="8a0fcaccab1fe0a454de3efc9a89ecd2"/></dir><dir name="Order"><dir name="Api"><file name="V2.php" hash="1f3c5b68d94c3d752591eff201f81b2e"/></dir><file name="Api.php" hash="2e747731b8bbf7ce0090f54e8d8fdf7d"/></dir><dir name="Store"><dir name="Api"><file name="V2.php" hash="c6d7dee3e1d4ffab3738b1e728420738"/></dir><file name="Api.php" hash="fb9c61958df9224907453043ec8f0d64"/></dir></dir></dir><dir name="etc"><file name="api.xml" hash="d2235c4021b56980019a0367fe6ed34e"/><file name="config.xml" hash="e0160ec8338156a670a7843f01e8d205"/><file name="wsdl.xml" hash="6c369ba8c555277e7de8f180913a2e06"/><file name="wsi.xml" hash="d314c46d63efba6f854a7ee0dec09f0f"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="OFBiz_Magentoext.xml" hash="d6c07e66195deb01460a2e840372ecbc"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
